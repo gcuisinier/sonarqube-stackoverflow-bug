@@ -1,8 +1,7 @@
 package impl;
 
-import test.sonar.api.MyService;
 
-public abstract class AbstractService implements MyService {
+public abstract class AbstractService implements test.sonar.api.MyService {
 	public String echo(String txt) {
 		return "echo " + txt;
 	}
