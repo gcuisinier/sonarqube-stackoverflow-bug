@@ -1,6 +1,6 @@
 package impl;
 
-public class MyService extends AbstractService implements test.sonar.api.MyService {
+public class MyServiceImpl extends AbstractService implements test.sonar.api.MyService {
 
 	@Override
 	public String echoReverse(String txt) {
